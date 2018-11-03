@@ -1,0 +1,30 @@
+{
+  "name": "notasapi",
+  "version": "1.0.0",
+  "description": "api de notas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notas"
+  ],
+  "author": "jdinis",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jdinis/notasapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jdinis/notasapi/issues"
+  },
+  "homepage": "https://github.com/jdinis/notasapi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
